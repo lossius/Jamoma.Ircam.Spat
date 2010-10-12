@@ -1,0 +1,1 @@
+This version requires Spat 4.1.5 or newer.
