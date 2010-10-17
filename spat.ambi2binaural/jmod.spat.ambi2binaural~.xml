@@ -5,11 +5,15 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='view/freeze' type='boolean' priority='0'>0</item>
-    <item name='head' type='string' priority='0'>KEMAR</item>
-    <item name='audio/mute' type='boolean' priority='0'>0</item>
-    <item name='audio/meters/freeze' type='boolean' priority='0'>0</item>
     <item name='audio/gain' type='decimal' priority='0'>110.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='head' type='generic' priority='0'>KEMAR</item>
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300 70 </item>
   </preset>
   <preset number='2' name='mute'>
     <item name='view/freeze' type='boolean' priority='0'>0</item>
