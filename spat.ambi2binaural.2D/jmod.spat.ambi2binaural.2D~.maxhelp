@@ -275,7 +275,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 52.0, 334.0, 19.0 ],
-					"text" : "Binaural decoding of 1st order (B-format) ambisonic signal."
+					"text" : "2D binaural decoding of 1st order (B-format) ambisonic signal."
 				}
 
 			}
@@ -288,8 +288,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 21.0, 258.0, 28.0 ],
-					"text" : "spat.jmod.ambi2binaural~"
+					"patching_rect" : [ 16.0, 21.0, 282.0, 28.0 ],
+					"text" : "spat.jmod.ambi2binaural.2D~"
 				}
 
 			}
@@ -393,17 +393,17 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/ambi2binaural~" ],
+					"args" : [ "/ambi2binaural.2D~" ],
 					"id" : "obj-31",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
-					"name" : "jmod.spat.ambi2binaural~.maxpat",
+					"name" : "jmod.spat.ambi2binaural.2D~.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
 					"patching_rect" : [ 290.0, 390.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"varname" : "jmod.ambi2binaural~.mod"
+					"varname" : "jmod.ambi2binaural.2D~.mod"
 				}
 
 			}
@@ -417,7 +417,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 85.0, 537.0, 19.0 ],
-					"text" : "The /head message can be used to coose between different head-related transfer functions (HRTF)."
+					"text" : "The /head message can be used to change the head-related transfer function (HRTF)."
 				}
 
 			}

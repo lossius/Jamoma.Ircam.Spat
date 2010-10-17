@@ -27,7 +27,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 455.0, 335.0, 73.0, 19.0 ],
+					"patching_rect" : [ 465.0, 335.0, 85.0, 19.0 ],
 					"text" : "jcom.out~ 2"
 				}
 
@@ -122,7 +122,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 515.0, 250.0, 25.0, 25.0 ]
+					"patching_rect" : [ 530.0, 245.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -133,7 +133,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 485.0, 365.0, 24.0, 24.0 ]
+					"patching_rect" : [ 500.0, 365.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -144,7 +144,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 455.0, 365.0, 24.0, 24.0 ]
+					"patching_rect" : [ 465.0, 365.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -263,8 +263,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
-					"patching_rect" : [ 395.0, 305.0, 137.0, 19.0 ],
-					"text" : "jalg.spat.ambi2binaural~"
+					"patching_rect" : [ 395.0, 305.0, 155.0, 19.0 ],
+					"text" : "jalg.spat.ambi2binaural.2D~"
 				}
 
 			}
