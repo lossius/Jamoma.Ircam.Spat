@@ -264,7 +264,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
 					"patching_rect" : [ 395.0, 305.0, 155.0, 19.0 ],
-					"text" : "jalg.spat.ambi2binaural.2D~"
+					"text" : "jalg.spat.ambi2binaural~"
 				}
 
 			}

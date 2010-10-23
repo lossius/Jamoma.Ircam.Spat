@@ -289,7 +289,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.0, 21.0, 282.0, 28.0 ],
-					"text" : "spat.jmod.ambi2binaural.2D~"
+					"text" : "spat.jmod.ambi2binaural~"
 				}
 
 			}
@@ -393,17 +393,17 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/ambi2binaural.2D~" ],
+					"args" : [ "/ambi2binaural~" ],
 					"id" : "obj-31",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
-					"name" : "jmod.spat.ambi2binaural.2D~.maxpat",
+					"name" : "jmod.spat.ambi2binaural~.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
 					"patching_rect" : [ 290.0, 390.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"varname" : "jmod.ambi2binaural.2D~.mod"
+					"varname" : "jmod.ambi2binaural~.mod"
 				}
 
 			}
