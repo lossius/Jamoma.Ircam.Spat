@@ -28,7 +28,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 95.0, 120.0, 42.0, 17.0 ],
-					"presentation_rect" : [ 287.0, 20.0, 0.0, 0.0 ],
 					"text" : "kemar"
 				}
 
@@ -377,13 +376,13 @@
 ,
 					"patching_rect" : [ 1070.0, 145.0, 116.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Verdana",
 						"globalpatchername" : "",
 						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Verdana",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p speakers2speakers"
@@ -401,15 +400,15 @@
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 480.0, 205.0, 403.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"type" : 0,
-						"coord_angles" : 0,
-						"orderweight" : [ 1.0, 0.333333 ],
-						"xyz_scale" : 1.0,
-						"active" : [ 1, 1, 1, 1, 1, 1, 1, 1 ],
-						"order" : 1,
+						"coord_system" : 0,
 						"gain" : 1.0,
+						"xyz_scale" : 1.0,
+						"type" : 0,
+						"active" : [ 1, 1, 1, 1, 1, 1, 1, 1 ],
 						"aed_scale" : 1.0,
-						"coord_system" : 0
+						"order" : 1,
+						"orderweight" : [ 1.0, 0.333333 ],
+						"coord_angles" : 0
 					}
 ,
 					"text" : "ambidecode~ 1 8 @type 0"
@@ -638,13 +637,13 @@
 ,
 					"patching_rect" : [ 1070.0, 195.0, 110.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Verdana",
 						"globalpatchername" : "",
 						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Verdana",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p speakers2sources"
