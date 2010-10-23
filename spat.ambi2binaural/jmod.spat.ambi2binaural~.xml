@@ -7,6 +7,7 @@
   <preset number='1' name='default'>
     <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
     <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='configuration' type='string' priority='0'>2D-ring</item>
     <item name='head' type='generic' priority='0'>KEMAR</item>
     <item name='view/color/border' type='array' priority='0'>0</item>
     <item name='view/color/contentBackground' type='array' priority='0'>0</item>

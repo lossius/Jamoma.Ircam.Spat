@@ -22,6 +22,54 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 191.0, 24.0, 165.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 185.0, 25.0, 114.0, 19.0 ],
+					"text" : "Virtual configuration"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 485.0, 155.0, 465.0, 19.0 ],
+					"text" : "jcom.parameter configuration @type string @description \"Head-related transfer function.\"",
+					"varname" : "jmod.parameter[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-41",
+					"items" : [ "2D-ring", ",", "3D-icosahedron", ",", "3D-dodecahedron" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"patching_rect" : [ 485.0, 125.0, 100.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 185.0, 45.0, 100.0, 19.0 ],
+					"types" : [  ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -173,7 +221,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 350.0, 20.0, 79.0, 19.0 ],
+					"patching_rect" : [ 485.0, 30.0, 79.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 45.0, 79.0, 19.0 ],
 					"types" : [  ],
@@ -232,7 +280,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 350.0, 75.0, 459.0, 19.0 ],
+					"patching_rect" : [ 485.0, 60.0, 459.0, 19.0 ],
 					"text" : "jcom.parameter head @type generic @description \"Head-related transfer function.\"",
 					"varname" : "jmod.parameter"
 				}
@@ -313,6 +361,15 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 494.5, 179.0, 479.0, 179.0, 479.0, 119.0, 494.5, 119.0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
@@ -352,7 +409,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 359.5, 99.0, 332.0, 99.0, 332.0, 16.0, 359.5, 16.0 ],
+					"midpoints" : [ 494.5, 94.0, 467.0, 94.0, 467.0, 26.0, 494.5, 26.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -408,6 +465,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 161.5, 157.0, 14.5, 157.0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 535.0, 149.0, 494.5, 149.0 ],
+					"source" : [ "obj-41", 1 ]
 				}
 
 			}

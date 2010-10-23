@@ -28,8 +28,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 560.0, 172.0, 29.0 ],
-					"text" : "/source.3/position 0.69282 0.4 0."
+					"patching_rect" : [ 25.0, 735.0, 172.0, 29.0 ],
+					"text" : "/source.3/position 0.56282 0.53 -0.36"
 				}
 
 			}
@@ -224,13 +224,13 @@
 ,
 					"patching_rect" : [ 25.0, 175.0, 67.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Verdana",
 						"globalpatchername" : "",
 						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Verdana",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p slow_init"
@@ -314,7 +314,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 490.0, 154.0, 31.0 ],
+					"patching_rect" : [ 25.0, 680.0, 154.0, 31.0 ],
 					"text" : "jcom.ambimonitor2position @prefix source @radius 1"
 				}
 
@@ -351,13 +351,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
+					"lines" : 1,
 					"maxclass" : "ambimonitor",
+					"mode" : 2,
 					"numbers" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 25.0, 270.0, 200.0, 200.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 100.0, 100.0 ]
+					"patching_rect" : [ 25.0, 270.0, 200.0, 400.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 100.0, 200.0 ]
 				}
 
 			}
@@ -444,7 +446,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 34.5, 537.0, 261.0, 537.0, 261.0, 263.0, 299.5, 263.0 ],
+					"midpoints" : [ 34.5, 717.0, 261.0, 717.0, 261.0, 263.0, 299.5, 263.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -453,7 +455,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 34.5, 549.0, 192.5, 549.0 ],
+					"midpoints" : [ 34.5, 732.0, 187.5, 732.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
